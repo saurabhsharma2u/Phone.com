@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\SDK\Exceptions;
+namespace PhoneDotCom\Exceptions;
 
 use Exception;
 

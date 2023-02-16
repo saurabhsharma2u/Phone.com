@@ -1,8 +1,8 @@
 <?php
 
-namespace VendorName\SDK\Requests;
+namespace PhoneDotCom\Requests;
 
-use VendorName\SDK\SDK;
+use PhoneDotCom\PhoneDotCom;
 use Sammyjo20\Saloon\Http\SaloonRequest;
 
 class Request extends SaloonRequest
@@ -10,5 +10,5 @@ class Request extends SaloonRequest
     /**
      * @var string|null
      */
-    protected ?string $connector = SDK::class;
+    protected ?string $connector = PhoneDotCom::class;
 }

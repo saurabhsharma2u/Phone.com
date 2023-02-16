@@ -1,12 +1,14 @@
 <?php
 
-namespace VendorName\SDK\Requests\Example;
+namespace PhoneDotCom\Requests\Accounts;
 
-use VendorName\SDK\Requests\Request;
+use PhoneDotCom\Requests\Request;
 use Sammyjo20\Saloon\Constants\Saloon;
 
-class ExampleRequest extends Request
+class ListAccountRequest extends Request
 {
+
+
     /**
      * Define the method that the request will use.
      *
@@ -19,6 +21,8 @@ class ExampleRequest extends Request
      */
     public function defineEndpoint(): string
     {
-        return '/';
+        return '/accounts';
     }
+
+
 }

@@ -1,24 +1,24 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "saurabhsharma/phonedotcom",
+    "description": "Interact with Phone.com API",
     "type": "library",
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/saurabhsharma/Phone.com",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "VendorName\\SDK\\": "src/",
-            "VendorName\\SDK\\Tests\\": "tests/"
+            "PhoneDotCom\\": "src/",
+            "PhoneDotCom\\Tests\\": "tests/"
         }
     },
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com"
+            "name": "Saurabh Sharma",
+            "email": "saurabhshram2u@gmail.com"
         }
     ],
     "minimum-stability": "stable",
     "require": {
-        "php": "^8.1",
+        "php": "^8.0",
         "sammyjo20/saloon": "^1.2",
         "spatie/data-transfer-object": "^3.8"
     },
